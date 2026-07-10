@@ -1,0 +1,29 @@
+{
+  "name": "NotaryOS",
+  "tagline": "Run your notary business end to end.",
+  "version": "0.1.0",
+  "url": "",
+  "supportEmail": "",
+  "plan": {
+    "name": "NotaryOS Pro",
+    "price": 19,
+    "currency": "USD",
+    "interval": "month",
+    "stripePriceId": ""
+  },
+  "features": [
+    "appointments",
+    "clients",
+    "journal",
+    "transactions",
+    "checklist",
+    "subscriptions"
+  ],
+  "server": {
+    "port": 3000
+  },
+  "branding": {
+    "primaryColor": "#1C2B45",
+    "accentColor": "#B8925A"
+  }
+}

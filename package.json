@@ -1,0 +1,19 @@
+{
+  "name": "notaryos",
+  "version": "0.1.0",
+  "description": "NotaryOS backend: auth, data storage, and Stripe subscription billing.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "stripe": "^16.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
